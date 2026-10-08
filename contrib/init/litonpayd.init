@@ -1,0 +1,67 @@
+#!/bin/bash
+#
+#  litonpayd The litonpay core server.
+#
+#
+# chkconfig: 345 80 20
+# description: litonpayd
+# processname: litonpayd
+#
+
+# Source function library.
+. /etc/init.d/functions
+
+# you can override defaults in /etc/sysconfig/litonpayd, see below
+if [ -f /etc/sysconfig/litonpayd ]; then
+        . /etc/sysconfig/litonpayd
+fi
+
+RETVAL=0
+
+prog=litonpayd
+# you can override the lockfile via LITONPAYD_LOCKFILE in /etc/sysconfig/litonpayd
+lockfile=${LITONPAYD_LOCKFILE-/var/lock/subsys/litonpayd}
+
+# litonpayd defaults to /usr/bin/litonpayd, override with LITONPAYD_BIN
+litonpayd=${LITONPAYD_BIN-/usr/bin/litonpayd}
+
+# litonpayd opts default to -disablewallet, override with LITONPAYD_OPTS
+litonpayd_opts=${LITONPAYD_OPTS--disablewallet}
+
+start() {
+    echo -n $"Starting $prog: "
+    daemon $DAEMONOPTS $litonpayd $litonpayd_opts
+    RETVAL=$?
+    echo
+    [ $RETVAL -eq 0 ] && touch $lockfile
+    return $RETVAL
+}
+
+stop() {
+    echo -n $"Stopping $prog: "
+    killproc $prog
+    RETVAL=$?
+    echo
+    [ $RETVAL -eq 0 ] && rm -f $lockfile
+    return $RETVAL
+}
+
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    status)
+        status $prog
+        ;;
+    restart)
+        stop
+        start
+        ;;
+    *)
+        echo "Usage: service $prog {start|stop|status|restart}"
+        exit 1
+        ;;
+esac

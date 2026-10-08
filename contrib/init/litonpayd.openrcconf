@@ -1,0 +1,33 @@
+# /etc/conf.d/litonpayd: config file for /etc/init.d/litonpayd
+
+# Config file location
+#LITONPAYD_CONFIGFILE="/etc/litonpay/litonpay.conf"
+
+# What directory to write pidfile to?  (created and owned by $LITONPAYD_USER)
+#LITONPAYD_PIDDIR="/var/run/litonpayd"
+
+# What filename to give the pidfile
+#LITONPAYD_PIDFILE="${LITONPAYD_PIDDIR}/litonpayd.pid"
+
+# Where to write litonpayd data (be mindful that the blockchain is large)
+#LITONPAYD_DATADIR="/var/lib/litonpayd"
+
+# User and group to own litonpayd process
+#LITONPAYD_USER="litonpay"
+#LITONPAYD_GROUP="litonpay"
+
+# Path to litonpayd executable
+#LITONPAYD_BIN="/usr/bin/litonpayd"
+
+# Nice value to run litonpayd under
+#LITONPAYD_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+LITONPAYD_OPTS="-disablewallet"
+
+# The timeout in seconds OpenRC will wait for litonpayd to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+LITONPAYD_SIGTERM_TIMEOUT=60

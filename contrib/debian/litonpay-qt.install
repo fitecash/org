@@ -1,0 +1,6 @@
+usr/local/bin/litonpay-qt usr/bin
+share/pixmaps/litonpay32.xpm usr/share/pixmaps
+share/pixmaps/litonpay16.xpm usr/share/pixmaps
+share/pixmaps/litonpay128.png usr/share/pixmaps
+debian/litonpay-qt.desktop usr/share/applications
+debian/litonpay-qt.protocol usr/share/kde4/services/

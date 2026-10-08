@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Litonpay Core
+Comment=Connect to the Litonpay P2P Network
+Comment[de]=Verbinde mit dem Litonpay peer-to-peer Netzwerk
+Comment[fr]=Litonpay, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Litonpay, eşten eşe kriptografik sanal para birimi
+Exec=litonpay-qt %u
+Terminal=false
+Type=Application
+Icon=litonpay128
+MimeType=x-scheme-handler/litonpay;
+Categories=Office;Finance;
