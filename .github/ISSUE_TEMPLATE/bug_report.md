@@ -7,7 +7,7 @@ title: '[bug] '
 <!-- Please make sure you are posting an technical issue related to Litonpay Core. --> 
 
 <!-- For general questions about Litonpay or wallet recovery please use one of the various communities:
-* [Dogeducation on reddit](https://www.reddit.com/r/dogeducation/)
+* [Ltpducation on reddit](https://www.reddit.com/r/ltpducation/)
 * [Discord](https://discord.com/invite/litonpay) -->
 
 <!-- ISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION. -->

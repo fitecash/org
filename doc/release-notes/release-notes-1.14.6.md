@@ -301,7 +301,7 @@ Credit goes to all awesome contributors to this release, alphabetically:
 * Chun Kuan Lee
 * Dakoda Greaves
 * LitonpayItalia
-* dogespacewizard
+* ltpspacewizard
 * Ed Tubbs
 * Evan Klitzke
 * fanquake

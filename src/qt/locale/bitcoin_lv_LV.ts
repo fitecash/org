@@ -1594,7 +1594,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Sūtīt Dogekoinu</translation>
+        <translation type="unfinished">Sūtīt Ltpkoinu</translation>
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
@@ -2459,7 +2459,7 @@ Use this functionality with extreme caution.</source>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sūtīt Dogekoinu</translation>
+        <translation>Sūtīt Ltpkoinu</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -3481,7 +3481,7 @@ Use this functionality with extreme caution.</source>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Sūtīt Dogekoinu</translation>
+        <translation type="unfinished">Sūtīt Ltpkoinu</translation>
     </message>
 </context>
 <context>

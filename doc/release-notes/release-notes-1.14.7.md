@@ -261,7 +261,7 @@ Credit goes to all awesome contributors to this release, alphabetically:
 * Ed Tubbs
 * fanquake
 * Fierce Skit
-* fultondoge
+* fultonltp
 * georgeartem
 * hwanyoungChoi
 * ilsubyega
@@ -271,7 +271,7 @@ Credit goes to all awesome contributors to this release, alphabetically:
 * junderw
 * kalvdans
 * mangekyousharingan
-* MarsDoge
+* MarsLtp
 * Martin
 * Martyornot
 * Michi Lumin

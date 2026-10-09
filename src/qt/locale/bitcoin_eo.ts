@@ -100,11 +100,11 @@
     </message>
     <message>
         <source>These are your Litonpay addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Jen viaj Dogemon-adresoj por sendi pagojn. Zorge kontrolu la sumon kaj la alsendan adreson antaŭ ol sendi.</translation>
+        <translation>Jen viaj Ltpmon-adresoj por sendi pagojn. Zorge kontrolu la sumon kaj la alsendan adreson antaŭ ol sendi.</translation>
     </message>
     <message>
         <source>These are your Litonpay addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Jen viaj dogemonaj adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ĉiu transakcio.</translation>
+        <translation>Jen viaj ltpmonaj adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ĉiu transakcio.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -352,7 +352,7 @@
     </message>
     <message>
         <source>Send coins to a Litonpay address</source>
-        <translation>Sendi monon al Dogemon-adreso</translation>
+        <translation>Sendi monon al Ltpmon-adreso</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -376,7 +376,7 @@
     </message>
     <message>
         <source>Litonpay</source>
-        <translation>Dogemono</translation>
+        <translation>Ltpmono</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -404,11 +404,11 @@
     </message>
     <message>
         <source>Sign messages with your Litonpay addresses to prove you own them</source>
-        <translation>Subskribi mesaĝojn per via Dogemon-adresoj por pravigi, ke vi estas la posedanto</translation>
+        <translation>Subskribi mesaĝojn per via Ltpmon-adresoj por pravigi, ke vi estas la posedanto</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litonpay addresses</source>
-        <translation>Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj Dogemon-adresoj</translation>
+        <translation>Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj Ltpmon-adresoj</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -1149,7 +1149,7 @@
     </message>
     <message>
         <source>Automatically open the Litonpay client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aŭtomate malfermi la kursilan pordon por Dogemono. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
+        <translation>Aŭtomate malfermi la kursilan pordon por Ltpmono. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1599,7 +1599,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Sendi Dogemonon</translation>
+        <translation type="unfinished">Sendi Ltpmonon</translation>
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
@@ -2458,7 +2458,7 @@ Use this functionality with extreme caution.</source>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sendi Dogemonon</translation>
+        <translation>Sendi Ltpmonon</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2862,7 +2862,7 @@ Use this functionality with extreme caution.</source>
     </message>
     <message>
         <source>Sign the message to prove you own this Litonpay address</source>
-        <translation>Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu Dogemon-adreso</translation>
+        <translation>Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu Ltpmon-adreso</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2882,7 +2882,7 @@ Use this functionality with extreme caution.</source>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Litonpay address</source>
-        <translation>Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Dogemon-adreso</translation>
+        <translation>Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Ltpmon-adreso</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3477,7 +3477,7 @@ Use this functionality with extreme caution.</source>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Sendi Dogemonon</translation>
+        <translation type="unfinished">Sendi Ltpmonon</translation>
     </message>
 </context>
 <context>
@@ -3543,7 +3543,7 @@ Use this functionality with extreme caution.</source>
     </message>
     <message>
         <source>Litonpay Core</source>
-        <translation>Kerno de Dogemono</translation>
+        <translation>Kerno de Ltpmono</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

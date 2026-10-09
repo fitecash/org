@@ -211,7 +211,7 @@ jobs:
     runs-on: ubuntu-24.04
     container:
       image: ${{ matrix.container }}
-      options: ${{ matrix.container-options == '' && '-e 1DOGE=1DOGE' || matrix.container-options }}
+      options: ${{ matrix.container-options == '' && '-e 1LTP=1LTP' || matrix.container-options }}
 
     steps:
       - name: Configure container
